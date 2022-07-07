@@ -20,7 +20,7 @@
 
 In this repository you can find the algorithm for the _Depth_ _Uniqueness_ & _Interdisciplinarity_ metrics calculation for _Microsoft Academic Graph_ _(MAG)_.
 
-The metrics are calculated at `26GB /scratch/aal544/AndriyMetrics/AndriyMetrics.csv`. The table includes the metrics for _152M_ papers. `bka3` has root permissions to the directory / file.
+The metrics are calculated at `26GB /scratch/aal544/AndriyMetrics/AndriyMetrics.csv`. The table includes the metrics for _152M_ papers. `bka3` has root permissions to the directory / file. Expect the code re-runs to run _10-12 hours_.
 
 
 
@@ -139,13 +139,6 @@ If you intend on using the `PaperFields` set, use `{'PaperFields':literal_eval}`
 ```python3
 pd.read_csv(path + filename, usecols=['PID','PaperFields', 'PubYear'], converters={'PaperFields':literal_eval})
 ```
-
-
-
-
-
-
-
 
 
 
