@@ -3,9 +3,17 @@
   MAG Depth Uniqueness & Interdisciplinarity
 </h1>
 
-## Table of Contents 
+## Table of Contents
 
-- 
+- [Overview](#overview)
+- [Files](#files)
+- [Metrics](#metrics)
+  * [1. Uniqueness](#1-uniqueness)
+  * [2. Interdisciplinarity](#2-interdisciplinarity)
+  * [3. Depth](#3-depth)
+- [Algorithm](#algorithm)
+- [Data Sample](#data-sample)
+- [Usage](#usage)
 
 
 ## Overview 
